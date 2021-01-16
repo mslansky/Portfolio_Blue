@@ -6,7 +6,7 @@ render (){
 
     return(
     <div className="Contact">
-      <div className="box"><p> ipsum lorem</p></div>
+        <div className="box"></div>
     </div>
     )
   }
