@@ -1,0 +1,65 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #264653;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.main {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  position: relative;
+  top: 200px;
+}
+
+.sidenav a {
+  display: block;
+  padding: 6px 8px 6px 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #d8e2dc;
+  /* border-bottom: 1px solid #d8e2dc; */
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 10%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.vl {
+  border-left: 6px solid #e9c46a;
+  margin-left: 325px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
