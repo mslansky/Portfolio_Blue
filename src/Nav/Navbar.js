@@ -5,18 +5,18 @@ class  Navbar extends React.Component{
 render (){
 
     return(
-    <div class="navbar">
-      <div class="sidenav">
+    <div className="navbar">
+      <div className="sidenav">
           <a href="#about">About</a>
-          <a href="#services">Services</a>
+          <a href="/Projects">Projects</a>
           <a href="#clients">Clients</a>
           <a href="#contact">Contact</a>
       </div>
 
-      <div class="vl"></div>
+      <div className="vl"></div>
 
 
-      <div class="main">
+      <div className="main">
       <h1>Madison Slansky</h1>
       <p>Website Developer || Software Engineer</p>
       </div>
