@@ -1,4 +1,5 @@
 import React from "react";
+import './MyForm.css';
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -17,13 +18,14 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/f/mdopbkpa"
         method="POST"
       >
-        
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        <div className="flexform">
+        <label className="email">Email:</label>
+        <input type="emailbox" className="email" />
+        <label className="messagebox">Message:</label>
+        <input type="text" className="message" />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="form-button">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </div>
       </form>
     );
   }

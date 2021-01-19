@@ -1,0 +1,50 @@
+.tech-box{
+  position: absolute;
+  top:700px;
+  
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background-color: #D8E2DC;
+  width: 100%;
+
+  margin-bottom:70px;
+}
+
+
+.techs{
+  font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+  margin-bottom: 30px;
+  margin-top:10px;
+}
+
+.tools{
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.techimgs{
+  margin-bottom: 30px;
+
+}
+
+.techimgs img{
+  width: 70px;
+  height: 70px;
+
+}
+
+.toolimgs{
+  margin-bottom: 90px;
+}
+
+.toolimgs img{
+  width: 70px;
+  height: 70px;
+
+}
