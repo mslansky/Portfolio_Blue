@@ -11,7 +11,7 @@ render (){
           <h1 className="contacts">Madison Slansky</h1>
           
          
-          <button>Enter</button>
+          <button className="enter">Enter</button>
        
       </div>
 

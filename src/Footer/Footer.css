@@ -6,7 +6,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #023047;
+  background-color: #333;
   color: white;
   text-align: center;
 }
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color:#FAE1DD;
+  color:#dee2e6;
 }
 
 a:active {

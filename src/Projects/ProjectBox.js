@@ -39,8 +39,8 @@ class  ProjectBox extends React.Component{
                 <h1>Boss Bot</h1>
                 <p>Chatbot built to practice salary negotiations - Submission for Social Justice Hackathon hosted by Mintbean.io and App Academy</p>
                 <ul>
-                    <li><a href="https://mslansky.github.io/BossBot/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol"/><i class="live-link" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/mslansky/BossBot" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://mslansky.github.io/BossBot/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" className="linkIcon"/><i className="live-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mslansky/BossBot" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"className="linkIcon"/><i className="github" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
