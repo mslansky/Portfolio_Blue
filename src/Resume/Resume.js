@@ -1,14 +1,11 @@
 import React from 'react';
-import './Projects.css'
-import ProjectBox from './ProjectBox.js'
-import Footer from '../Footer/Footer.js'
-import Techstack from './TechStack.js'
+import './Resume.css'
 
-class  Projects extends React.Component{
+
+class  Resume extends React.Component{
 render (){
-
-    return(
-    <div className="Projects">
+  return(
+      <div className="resume-box">
 
               <div className="top-nav">
                 <ul>
@@ -18,23 +15,12 @@ render (){
                   <li><a href="/Contact">Contact</a></li>
                 </ul>
               </div>
+       
+        <img src="/Techs/resume_madisonslansk.png" className="resume-img" alt="madison resume"></img>
 
-
-
-
-
-
-        
-      
-      <ProjectBox/>
-      
-      <Techstack/>
-      
-      <Footer/>
-     
-    </div>
+      </div>
     )
   }
 }
 
-export default Projects;
+export default Resume;

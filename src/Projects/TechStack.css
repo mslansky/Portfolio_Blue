@@ -36,8 +36,17 @@
 .techimgs img{
   width: 70px;
   height: 70px;
-
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
+
+.techimgs img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+
+
 
 .toolimgs{
   margin-bottom: 90px;
@@ -46,5 +55,11 @@
 .toolimgs img{
   width: 70px;
   height: 70px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 
+.toolimgs img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }

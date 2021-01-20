@@ -3,6 +3,10 @@ import Navbar from './Nav/Navbar.js';
 import Projects from './Projects/Projects.js'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Contact from './Contact/Contact.js';
+import Resume from './Resume/Resume';
+import Landing from './Landing/Landing';
+import About from './About/About.js'
+
 
 function App() {
   return (
@@ -10,11 +14,19 @@ function App() {
       <Router>
         <Switch>
         <Route exact path="/">
-        
-          <Navbar/>
+          
+
+          <Landing/>
           
         </Route>
         
+        <Route path="/About">
+            <About/>
+            
+        </Route>
+
+
+
         <Route path="/Projects">
             <Projects/>
             
@@ -23,6 +35,15 @@ function App() {
         <Route path="/Contact">
           <Contact/>
         </Route>
+
+        <Route path="/Resume">
+          <Resume/>
+        </Route>
+
+        <Route path="/Navbar">
+          <Navbar/>
+        </Route>
+
 
         </Switch>
       </Router>

@@ -2,7 +2,7 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 body{height: 900px;}
 .overlay{
-	background-color:#D8E2DC;
+	background-color:lightgrey;
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -10,7 +10,7 @@ body{height: 900px;}
 	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
+	border-radius: 0 0 0 0 / 70%;
 }
 header .overlay{
 	width: 100%;

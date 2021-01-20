@@ -9,14 +9,17 @@ render (){
       <div className="sidenav">
           <a href="#about">About</a>
           <a href="/Projects">Projects</a>
-          <a href="#clients">Clients</a>
-          <a href="#contact">Contact</a>
+          <a href="/Resume">Resume</a>
+          <a href="/Contact">Contact</a>
       </div>
 
       <div className="vl"></div>
 
 
       <div className="main">
+          <div className="imgss">
+            <img src="./Techs/profilepic.jpg" className="over-img" alt="smiling selfie of Madison"></img>
+          </div>
       <h1>Madison Slansky</h1>
       <p>Website Developer || Software Engineer</p>
       </div>

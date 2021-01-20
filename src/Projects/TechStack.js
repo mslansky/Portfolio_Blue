@@ -23,8 +23,8 @@ render (){
 
         <h1 className="tools"> Tool Stack </h1>
         <div className="toolimgs">
-        <img src="/Techs/vercel.png" alt="vercel icon"></img>
         <img src="/Techs/vscode.png" alt="vs code icon"></img>
+        <img src="/Techs/vercel.png" alt="vercel icon"></img>
         <img src="/Techs/heroku.png" alt="heroku icon"></img>
         <img src="/Techs/github.png" alt="github icon"></img>
         <img src="/Techs/git.png" alt="git icon"></img>

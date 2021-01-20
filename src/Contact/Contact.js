@@ -10,7 +10,7 @@ class Contact extends React.Component{
 
       <div className="overlay">
           <h1 className="contact">Contact Me</h1>
-          <h3>Reasons for Choosing US</h3>
+          <h3>I look forward to hearing from you.</h3>
           <p>Lorem, ipsum dolor sit amet consecte quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
           
           <button>LinkedIn</button>

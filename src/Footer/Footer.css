@@ -1,15 +1,33 @@
 .footer {
   display:flex;
   justify-content: center;
+  justify-content: space-evenly;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #264653;
+  background-color: #023047;
   color: white;
   text-align: center;
 }
 
-.icons{
-  
+
+a {
+  color: white;
+  font-family: Poppins;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color:#FAE1DD;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
 }

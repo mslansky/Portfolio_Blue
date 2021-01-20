@@ -7,7 +7,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #264653;
+  background-color: #023047;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -19,7 +19,7 @@
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   position: relative;
-  top: 200px;
+  top: 100px;
 }
 
 .sidenav a {
@@ -56,6 +56,18 @@
   overflow-x: hidden;
   height: 100%;
 }
+
+.App {
+  text-align: center;
+}
+
+.imgss img{
+  position: relative;
+  border-radius: 50%;
+  width: 30%;
+  height:50%;
+}
+
 
 
 @media screen and (max-width: 850px) {
