@@ -20,9 +20,13 @@
   padding-top: 30px;
 }
 
+
+
 .enter{
   font-family: 'Poppins', sans-serif;
+  color:black;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .enter:hover{

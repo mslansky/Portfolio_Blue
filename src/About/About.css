@@ -26,23 +26,47 @@ li a:hover {
   background-color: #111;
 }
 
+.about-flex{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
 .about-img img{
+  display: flex;
+  justify-content: center;
   position:relative;
   float:left;
-  width:300px;
+  width:20em;
   height:100%;
-  border-radius: 50%;
-
-  margin-left:100px;
+  border-radius: 18px;
+ 
   margin-top:100px;
-  padding:20px;
+  margin-left:70px;
+  
 }
 
 .about-text{
-  position:relative;
-  float:right;
+  float: right;
+  margin-top:200px;
 
-  margin-left:100px;
-  margin-top:100px;
   padding:20px;
+  
+}
+
+.quote p{
+  font-family: 'Quicksand', sans-serif;
+  color:red;
+  font-size: 60px;
+  margin-top:200px;
+  border-left:3px solid black;
+
+  margin-left: 25px;
+  padding-left: 2px;
+  margin-bottom:90px;
+}
+
+.quote{
+  margin-bottom: 50px;
 }

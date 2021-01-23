@@ -1,7 +1,7 @@
-/* .flexform{
-  display: flex;
-  flex-direction: column;
-} */
+.flexform{
+ background-image: url('')
+  
+}
 
 .emailbox{
   
@@ -20,6 +20,15 @@
 .form-button{
   margin-left: 25px;
   margin-right:5px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size: 20px;
+}
+
+.form-button:hover{
+  color:red;
 }
 
 .message{

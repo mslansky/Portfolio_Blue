@@ -8,12 +8,25 @@ class Contact extends React.Component{
     return(
       <div className="contact-page">
 
+      <div className="top-nav">
+          <ul>
+            <li><a href="/Projects">Projects</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Resume">Resume</a></li>
+            <li><a href="/Contact">Contact</a></li>
+          </ul>
+
+      </div>
+        
+
       <div className="overlay">
           <h1 className="contact">Contact Me</h1>
           <h3>I look forward to hearing from you.</h3>
-          <p>Lorem, ipsum dolor sit amet consecte quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          
-          <button>LinkedIn</button>
+          <p>Send me a message, say hello, or ask a question.</p>
+          <p> Need more information? Check out my LinkedIn and my Github.</p>
+          <button className="contact-button"><a href="https://www.linkedin.com/in/madison-slansky/" rel="noopener noreferrer" target="_blank" className="contact-button">LinkedIn</a></button>
+          <div className="empty"></div>
+          <button className="github-button"><a href="https://github.com/mslansky" rel="noopener noreferrer" target="_blank" className="contact-button">Github</a></button>
       </div>
 
       <div className="myForm">

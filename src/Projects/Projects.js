@@ -19,18 +19,13 @@ render (){
                 </ul>
               </div>
 
-
-
-
-
-
         
       
       <ProjectBox/>
       
       <Techstack/>
       
-      <Footer/>
+     
      
     </div>
     )
