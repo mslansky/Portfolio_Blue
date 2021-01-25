@@ -11,6 +11,7 @@
 }
 
 
+
 .messagebox{
   padding-left: 10px;
   padding-right:5px;
@@ -31,6 +32,24 @@
   color:red;
 }
 
-.message{
+.messagebox{
   
+}
+
+
+
+
+/* SCREEN DIFFERENCES */
+
+@media screen and (max-width: 700px) {
+  
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .form-button{
+      padding: 10px 12px;
+      font-size:small;
+  }
 }

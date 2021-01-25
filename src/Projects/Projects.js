@@ -19,9 +19,7 @@ render (){
                 </ul>
               </div>
 
-        
-      
-      <ProjectBox/>
+        <ProjectBox/>
       
       <Techstack/>
       

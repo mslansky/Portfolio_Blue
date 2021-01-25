@@ -1,3 +1,10 @@
+
+.about{
+background-image: url('https://images.unsplash.com/photo-1572756317709-fe9c15ced298?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80');
+  background-repeat: round;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -56,6 +63,7 @@ li a:hover {
 }
 
 .quote p{
+  position:fixed;
   font-family: 'Quicksand', sans-serif;
   color:red;
   font-size: 60px;
@@ -69,4 +77,19 @@ li a:hover {
 
 .quote{
   margin-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+  
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .top-nav li{
+    font-size:medium;
+  }
 }
