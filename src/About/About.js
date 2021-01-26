@@ -24,7 +24,9 @@ render (){
       </div>
 
       <div className="about-text">
-        <p> Welcome to my page! ipsum lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p> Welcome to my page! My name is Madison and I am a software engineer in Denver, Colorado! I love to bake, I love to hike, and I love my pets! I have experience in Healthcare, and a Sociology undergraduate degree from Texas A&M. People are my passion, and I believe in making a difference.
+
+        Technology is inspirational, and has unlimited possibilities. My goals are to create responsive, engaging UX that allows for people to communicate. I have experience developing full-stack applications with proficiency in HTML/CSS, React, Node, Express, JavaScript, and Postgresql. I am searching for a team where I can dive into making the world a better place, one application at a time. </p>
       </div>
 
       <div className="quote">
