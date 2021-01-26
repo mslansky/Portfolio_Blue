@@ -1,31 +1,22 @@
 
-/* .box{
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  background-image: url('https://images.unsplash.com/photo-1593193260007-9b6f5083b9e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
-  
-  width:100%;
-  height:100%;
-
-} */
-
 .card {
   position: relative;
+  
 }
 
 .card .image {
-  width: 500px;
-  height: 80%;
+  width: 600px;
+  height: 50%;
   overflow: hidden;
 }
+
 .card:not(:hover) img{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
 .card .image img {
-  width: 70%;
+  width: 60%;
   transition: .5s;
 }
 .card:hover .image img {
@@ -36,7 +27,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 20%;/*100%*/
+  width: 30%;/*100%*/
   height: 100%;
   background: #242423;
   transition: .5s;
@@ -90,8 +81,6 @@
   margin-left: auto;
   margin-right: auto;
   
-  /* width: 200%;
-  height: 200%; */
 }
 
 .card .details .center ul li a {
@@ -112,9 +101,6 @@
 
 
 
-
-
-
 .flex{
   display: flex;
   flex-direction: column;
@@ -128,11 +114,9 @@
   flex-direction: column;
   justify-content: space-evenly;
   justify-content: center;
-
   padding:15px;
   
 }
-
 
 .firstproj{
   display: flex;
@@ -142,10 +126,7 @@
   padding-left: 30px;
   margin-top:100px;
   background-color: rgba(51, 51,51, .97);
- 
 }
-
-
 
 
 .secondproj{
@@ -158,8 +139,6 @@
   background-color: rgba(51, 51,51, .97);
 }
 
-
-
 .thirdproj{
   display: flex;
   flex-direction: column;
@@ -168,7 +147,6 @@
   padding-left: 30px;
   margin-top:200px;
   background-color: rgba(51, 51,51, .97);
-
 }
 
 
@@ -176,20 +154,12 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  
 }
 
 
-
-
-
-
-
-
-
-
-
-
+ul.imgButtons {
+  width: 185px;
+}
 
 
 
@@ -199,7 +169,7 @@
 
 
 @media screen and (max-width: 700px) {
-  .flex{
+  /* .flex{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -219,13 +189,13 @@
   .card .details .center{
     width: 260px;
     height: 300px;
-  }
+  } */
 
 }
 
 
 @media screen and (max-width: 500px) {
-  .flex{
+  /* .flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -259,7 +229,7 @@
   .thirdproj{
     padding-top:20px;
   }
-  
+   */
 
   
 }

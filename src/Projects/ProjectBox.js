@@ -20,18 +20,18 @@ class  ProjectBox extends React.Component{
               <h1>Pet Health Tracker</h1>
               <p>This application has been designed with your best friend's health in mind.
             Create a pet profile and document your pet's health through a series of diary entries.</p>
-              <ul>
+              <ul className="imgButtons">
                   <li><a href="https://pet-health-app.mslansky.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" /><i class="live-link" aria-hidden="true"></i></a></li>
                   <li><a href="https://github.com/mslansky/PetHealth-App" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
-          <div class="firstproj-text">
+      </div>
+      <div class="firstproj-text">
             <p> Lorem Ipsum
             </p>
           </div>
-      </div>
 
           <div className="secondproj">
           <div className="card">

@@ -33,9 +33,7 @@ class Contact extends React.Component{
       <MyForm/>
       </div>
       
-      <div className="quote2">
-        <p> “I never dreamed about success. I worked for it.”- Estée Lauder</p>
-      </div>
+      
 
       <Footer/>
 
