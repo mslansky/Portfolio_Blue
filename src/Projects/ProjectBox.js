@@ -28,10 +28,7 @@ class  ProjectBox extends React.Component{
           </div>
         </div>
       </div>
-      <div class="firstproj-text">
-            <p> Lorem Ipsum
-            </p>
-          </div>
+      
 
           <div className="secondproj">
           <div className="card">
