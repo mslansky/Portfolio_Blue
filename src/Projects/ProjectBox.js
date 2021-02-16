@@ -33,15 +33,15 @@ class  ProjectBox extends React.Component{
           <div className="secondproj">
           <div className="card">
             <div className="image">
-            <img src="https://user-images.githubusercontent.com/62613007/104973663-fee2d600-59ba-11eb-9a99-b119f2fd14d6.jpg" alt="application landing page featuring several images of dogs"/>
+            <img src="https://user-images.githubusercontent.com/62613007/108124090-6482ba80-706c-11eb-814a-4d674fe93127.jpg" alt="application landing page featuring several images of dogs"/>
             </div>
             <div className="details">
               <div className="center">
-                <h1>Boss Bot</h1>
-                <p>Chatbot built to practice salary negotiations - Submission for Social Justice Hackathon hosted by Mintbean.io and App Academy</p>
+                <h1>Petful</h1>
+                <p>Petful Adoption Project designed to showcase my understanding of the Queue Data Structure Algorithm, allows users to "adopt" a pet who has been in the pound the longest. First In First Out!</p>
                 <ul>
-                    <li><a href="https://mslansky.github.io/BossBot/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" className="linkIcon"/><i className="live-link" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/mslansky/BossBot" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"className="linkIcon"/><i className="github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://petful-gray.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" className="linkIcon"/><i className="live-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mslansky/Petful" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"className="linkIcon"/><i className="github" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -51,15 +51,15 @@ class  ProjectBox extends React.Component{
           <div className="thirdproj">
           <div className="card">
             <div className="image">
-            <img src="https://user-images.githubusercontent.com/62613007/104973619-dce95380-59ba-11eb-9f97-31d834834dd3.jpg" alt="application landing page featuring several images of dogs"/>
+            <img src="https://user-images.githubusercontent.com/62613007/108124254-9d229400-706c-11eb-961e-b0965629e9e5.jpg" alt="application landing page featuring several images of dogs"/>
             </div>
             <div className="details">
               <div className="center">
-                <h1>Great British Baking Show</h1>
-                <p>Mobile responsive, fun application meant to rate your knowledge of the Netflix T.V. Show - Great British Baking Show!</p>
+                <h1>La Bouffe</h1>
+                <p>Bonjour! This full-stack application allows you to practice learning french words for food. This application utilizes a linked-list to allow for the practice of stored words.</p>
                 <ul>
-                    <li><a href="https://mslansky.github.io/GBBSQuizApp/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol"/><i class="live-link" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/mslansky/GBBSQuizApp" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://spaced-repetition-la-bouffe.vercel.app" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol"/><i class="live-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mslansky/spaced-repetition--la-bouffe" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
