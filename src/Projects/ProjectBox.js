@@ -24,6 +24,7 @@ class  ProjectBox extends React.Component{
                   <li><a href="https://pet-health-app.mslansky.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" /><i class="live-link" aria-hidden="true"></i></a></li>
                   <li><a href="https://github.com/mslansky/PetHealth-App" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
               </ul>
+              <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Mocha, Chai</p>
             </div>
           </div>
         </div>
@@ -43,6 +44,7 @@ class  ProjectBox extends React.Component{
                     <li><a href="https://petful-gray.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" className="linkIcon"/><i className="live-link" aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/mslansky/Petful" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"className="linkIcon"/><i className="github" aria-hidden="true"></i></a></li>
                 </ul>
+                <p> Tech Stack Includes: React (React Hooks Used), JavaScript, JSX, HTML5, CSS3, Node, Express.js</p>
               </div>
             </div>
           </div>
@@ -61,6 +63,7 @@ class  ProjectBox extends React.Component{
                     <li><a href="https://spaced-repetition-la-bouffe.vercel.app" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol"/><i class="live-link" aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/mslansky/spaced-repetition--la-bouffe" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i class="github" aria-hidden="true"></i></a></li>
                 </ul>
+                <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Cypress Testing</p>
               </div>
             </div>
           </div>

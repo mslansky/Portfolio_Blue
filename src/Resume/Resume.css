@@ -8,25 +8,17 @@
 .resume-img{
   margin-top: 25px;
   margin-bottom: 25px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
+  
 }
+
 
 
 .resume-img:hover{
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(0%); 
   filter: grayscale(0%);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -57,4 +49,11 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+@media screen and (max-width: 400px) {
+  img{
+    width: 100%;
+  }
+
 }

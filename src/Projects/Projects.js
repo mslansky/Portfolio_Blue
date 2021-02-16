@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css'
 import ProjectBox from './ProjectBox.js'
-import Footer from '../Footer/Footer.js'
 import Techstack from './TechStack.js'
 
 class  Projects extends React.Component{

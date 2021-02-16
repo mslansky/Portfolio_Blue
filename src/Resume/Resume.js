@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css'
+import Footer from '../Footer/Footer.js'
 
 
 class  Resume extends React.Component{
@@ -17,6 +18,8 @@ render (){
               </div>
        
         <img src="/Techs/resume_madisonslansk.png" className="resume-img" alt="madison resume"></img>
+
+        <Footer/>
 
       </div>
     )

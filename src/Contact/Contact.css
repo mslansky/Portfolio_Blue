@@ -13,7 +13,7 @@ body{height: 900px;}
   border-radius: 0 0 0 0 / 70%;
   background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   
 }
@@ -23,7 +23,6 @@ header .overlay{
 	padding: 50px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
 	
 }
 
@@ -31,6 +30,7 @@ header .overlay{
 	font-family: 'Poppins', sans-serif;
 	font-size: 80px;
 	margin-bottom: 30px;
+  
 }
 
 h3, p {
@@ -40,16 +40,17 @@ h3, p {
 }
 
 
-
 button {
 	border: none;
 	outline: none;
 	padding: 10px 20px;
 	border-radius: 50px;
-	color: #333;
 	background: #fff;
 	margin-bottom: 200px;
 	box-shadow: 0 3px 20px 0 #0000003b;
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+  
 }
 
 
@@ -60,10 +61,8 @@ button {
 
 .contact-button{
   text-decoration: none;
-  color:black;
   margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
-  color:black;
   font-size: 20px;
   
 }
@@ -72,12 +71,15 @@ button {
   color:red;
 }
 
+a:hover{
+  color:red;
+}
+
 .github-button{
   text-decoration: none;
   color:black;
   margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
-  color:black;
   font-size: 20px;
 }
 

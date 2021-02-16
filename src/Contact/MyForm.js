@@ -13,20 +13,28 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
+
+        <form
         onSubmit={this.submitForm}
         action="https://formspree.io/f/mdopbkpa"
         method="POST"
-      >
+        >
         <div className="flexform">
         <label className="email">Email:</label>
-        <input type="emailbox" className="email" />
+        <div className="flexx">
+        <input type="text" className="email" />
+        </div>
         <label className="messagebox">Message:</label>
-        <input type="text" className="message" />
+        <div className="flexx">
+        <input type="textarea" className="message" />
+        </div>
+        <div className="flexx">
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className="form-button">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </div>
-      </form>
+        </div>
+        </form> 
+     
     );
   }
 
@@ -49,3 +57,4 @@ export default class MyForm extends React.Component {
     xhr.send(data);
   }
 }
+
