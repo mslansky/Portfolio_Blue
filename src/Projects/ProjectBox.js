@@ -10,6 +10,7 @@ class  ProjectBox extends React.Component{
 
       <div className="flex">
         
+        <div className="flexxx">
         <div className="firstproj">
         <div className="card">
           <div className="image">
@@ -29,8 +30,9 @@ class  ProjectBox extends React.Component{
           </div>
         </div>
       </div>
-      
+      </div>
 
+      <div className="flexxx">
           <div className="secondproj">
           <div className="card">
             <div className="image">
@@ -49,7 +51,9 @@ class  ProjectBox extends React.Component{
             </div>
           </div>
           </div>
+          </div>
 
+          <div className="flexxx">
           <div className="thirdproj">
           <div className="card">
             <div className="image">
@@ -66,6 +70,7 @@ class  ProjectBox extends React.Component{
                 <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Cypress Testing</p>
               </div>
             </div>
+          </div>
           </div>
           </div>
 
