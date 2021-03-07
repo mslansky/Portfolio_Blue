@@ -5,7 +5,7 @@
 }
 
 .card .image {
-  width: 600px;
+  width: 300px;
   height: 50%;
   overflow: hidden;
 }
@@ -27,7 +27,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 30%;/*100%*/
+  width: 70%;
   height: 100%;
   background: #242423;
   transition: .5s;
@@ -87,8 +87,6 @@
   display: block;
   background:#242423;
   color: #fff;
-  /* width: 50px;
-  height: 50px; */
   line-height: 30px;
   text-align: center;
   transform: .5s;
@@ -109,10 +107,6 @@
   
 }
 
-
-
-
-
 .card{
   display: flex;
   flex-direction: column;
@@ -120,6 +114,16 @@
   justify-content: center;
   padding:15px;
   
+}
+
+.finalproj{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  padding-left: 30px;
+  margin-top:200px;
+  background-color: rgba(51, 51,51, .97);
 }
 
 .firstproj{
@@ -139,7 +143,7 @@
   justify-content: space-evenly;
   justify-content: center;
   padding-left: 30px;
-  margin-top:200px;
+  margin-top:100px;
   background-color: rgba(51, 51,51, .97);
 }
 
@@ -149,7 +153,7 @@
   justify-content: space-evenly;
   justify-content: center;
   padding-left: 30px;
-  margin-top:200px;
+  margin-top:100px;
   background-color: rgba(51, 51,51, .97);
 }
 
@@ -166,6 +170,181 @@ ul.imgButtons {
 }
 
 
+@media screen and (min-width: 600px){
+  .card {
+    position: relative;
+    
+  }
+  
+  .card .image {
+    width: 600px;
+    height: 50%;
+    overflow: hidden;
+  }
+  
+  .card:not(:hover) img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
+  .card .image img {
+    width: 60%;
+    transition: .5s;
+  }
+  .card:hover .image img {
+    opacity: .8;
+    transform: translateX(30%);/*100%*/
+  }
+  .card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;/*100%*/
+    height: 100%;
+    background: #242423;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(1000px) rotateY(-90deg);
+    padding-top:15px;
+  }
+  .card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+  }
+  .card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top:15px;
+  }
+  .card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: red;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card .details .center h1 span {
+    font-size: 14px;
+    color: black;
+  }
+  .card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: black;
+  }
+  .card .details .center ul {
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
+   
+  }
+  .card .details .center ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+  }
+  
+  .card .details .center ul li img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .card .details .center ul li a {
+    display: block;
+    background:#242423;
+    color: #fff;
+    /* width: 50px;
+    height: 50px; */
+    line-height: 30px;
+    text-align: center;
+    transform: .5s;
+    font-family: Poppins;
+  }
+  
+  .card .details .center ul li a:hover {
+    background: #333;
+  }
+  
+  
+  
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding:15px;
+    
+  }
+  
+  .finalproj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top:200px;
+    background-color: rgba(51, 51,51, .97);
+  }
+  
+  .firstproj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top:100px;
+    background-color: rgba(51, 51,51, .97);
+  }
+  
+  
+  .secondproj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top:200px;
+    background-color: rgba(51, 51,51, .97);
+  }
+  
+  .thirdproj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top:200px;
+    background-color: rgba(51, 51,51, .97);
+  }
+  
+  
+  .firstproj-text p{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  
+  ul.imgButtons {
+    width: 185px;
+  }
+  
+
+}
 
 
 

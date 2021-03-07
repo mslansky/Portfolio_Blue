@@ -36,6 +36,7 @@ header .overlay{
 }
 
 h3, p {
+  background-color: white;
 	font-family: 'Poppins', sans-serif;
   margin-bottom: 30px;
   font-style: bold;
