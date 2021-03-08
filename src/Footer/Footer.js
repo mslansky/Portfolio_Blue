@@ -5,8 +5,7 @@ class Footer extends React.Component{
   render (){
     return(
       <div className="footer">
-             <p className="name">Madison.Slansky@Gmail.Com</p>
-              
+             <a href="mailto:madison.slansky@gmail.com" target="_blank" className="name">madison.slansky@gmail.com</a>
       </div>
     )
   }
