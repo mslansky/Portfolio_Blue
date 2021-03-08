@@ -22,8 +22,8 @@ class  ProjectBox extends React.Component{
               <h1>Cottage</h1>
               <p>This fullstack application is my final capstone. Cottage is an E-Commerce Homemade Gourmet Bakery Site that allows for users to create a login and shop for local home baked goods!</p>
               <ul className="imgButtons">
-                  <li><a href="https://cottage-lac.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" /><i className="live-link" aria-hidden="true"></i></a></li>
-                  <li><a href="https://github.com/mslansky/Cottage" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i className="github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://cottage-lac.vercel.app/" rel="noopener noreferrer" target="_blank">Live Link<i className="live-link" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/mslansky/Cottage" rel="noopener noreferrer" target="_blank">Github<i className="github" aria-hidden="true"></i></a></li>
               </ul>
               <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Mocha, Chai</p>
             </div>
@@ -45,8 +45,8 @@ class  ProjectBox extends React.Component{
               <p>This application has been designed with your best friend's health in mind.
             Create a pet profile and document your pet's health through a series of diary entries.</p>
               <ul className="imgButtons">
-                  <li><a href="https://pet-health-app.mslansky.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" /><i className="live-link" aria-hidden="true"></i></a></li>
-                  <li><a href="https://github.com/mslansky/PetHealth-App" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i className="github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://pet-health-app.mslansky.vercel.app/" rel="noopener noreferrer" target="_blank">Live Link<i className="live-link" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/mslansky/PetHealth-App" rel="noopener noreferrer" target="_blank">Github<i className="github" aria-hidden="true"></i></a></li>
               </ul>
               <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Mocha, Chai</p>
             </div>
@@ -66,8 +66,8 @@ class  ProjectBox extends React.Component{
                 <h1>Petful</h1>
                 <p>Petful Adoption Project designed to showcase my understanding of the Queue Data Structure Algorithm, allows users to "adopt" a pet who has been in the pound the longest. First In First Out!</p>
                 <ul>
-                    <li><a href="https://petful-gray.vercel.app/" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol" className="linkIcon"/><i className="live-link" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/mslansky/Petful" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"className="linkIcon"/><i className="github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://petful-gray.vercel.app/" rel="noopener noreferrer" target="_blank">Live Link<i className="live-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mslansky/Petful" rel="noopener noreferrer" target="_blank">Github<i className="github" aria-hidden="true"></i></a></li>
                 </ul>
                 <p> Tech Stack Includes: React (React Hooks Used), JavaScript, JSX, HTML5, CSS3, Node, Express.js</p>
               </div>
@@ -87,8 +87,8 @@ class  ProjectBox extends React.Component{
                 <h1>La Bouffe</h1>
                 <p>Bonjour! This full-stack application allows you to practice learning french words for food. This application utilizes a linked-list to allow for the practice of stored words.</p>
                 <ul>
-                    <li><a href="https://spaced-repetition-la-bouffe.vercel.app" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/domain.png" alt="internet symbol"/><i className="live-link" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/mslansky/spaced-repetition--la-bouffe" rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="github symbol"/><i className="github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://spaced-repetition-la-bouffe.vercel.app" rel="noopener noreferrer" target="_blank">Live Link<i className="live-link" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mslansky/spaced-repetition--la-bouffe" rel="noopener noreferrer" target="_blank">Github<i className="github" aria-hidden="true"></i></a></li>
                 </ul>
                 <p> Tech Stack Includes: React, JavaScript, JSX, HTML5, CSS3, Node.js, Express.js, Cypress Testing</p>
               </div>

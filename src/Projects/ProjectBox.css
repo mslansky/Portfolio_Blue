@@ -72,16 +72,11 @@
 }
 .card .details .center ul li {
   list-style: none;
-  margin: 0 5px;
   float: left;
+  font-size: 10px;
 }
 
-.card .details .center ul li img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+
 
 .card .details .center ul li a {
   display: block;
@@ -157,17 +152,6 @@
   background-color: rgba(51, 51,51, .97);
 }
 
-
-.firstproj-text p{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-ul.imgButtons {
-  width: 185px;
-}
 
 
 @media screen and (min-width: 600px){
